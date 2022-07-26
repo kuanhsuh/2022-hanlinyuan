@@ -15,6 +15,12 @@
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./asset/bg-3.jpg") center right/cover no-repeat;
         }
 
+        @media only screen and (max-width: 600px) {
+            header {
+                height: 300px;
+            }
+        }
+
         td,
         th {
             padding: 8px 0;
@@ -53,7 +59,7 @@
                     <div class="-ml-2 mr-2 flex items-center md:hidden order-3">
                         <!-- Mobile menu button -->
                         <button id="menuButton" type="button"
-                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500"
                             aria-controls="mobile-menu" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <!--
@@ -81,14 +87,14 @@
                         </button>
                     </div>
                     <div class="flex-shrink-0 flex items-center">
-                        <img class="hidden lg:block h-10 mr-2 w-auto" src="./logo.jpg" alt="Workflow">
-                        <img class="block lg:hidden h-8 w-auto mr-2" src="./logo.jpg" alt="Workflow"> 翰林苑建設
+                        <img class="hidden lg:block h-10 mr-2 w-auto" src="./asset/logo.png" alt="Workflow">
+                        <img class="block lg:hidden h-8 w-auto mr-2" src="./asset/logo.png" alt="Workflow"> 翰林苑建設
 
                     </div>
                     <div class="hidden md:ml-6 md:flex md:space-x-8">
-                        <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                        <!-- Current: "border-red-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
                         <a href="/"
-                            class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            class="border-red-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             首頁 </a>
                         <a href="/about.html"
                             class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
@@ -108,9 +114,9 @@
         <!-- Mobile menu, show/hide based on menu state. -->
         <div class="hidden md:hidden" id="mobile-menu">
             <div class="pt-2 pb-3 space-y-1">
-                <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+                <!-- Current: "bg-red-50 border-red-500 text-red-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
                 <a href="/"
-                    class="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">首頁</a>
+                    class="bg-red-50 border-red-500 text-red-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">首頁</a>
                 <a href="/about.html"
                     class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">關於我們</a>
                 <a href="/history.html"
@@ -203,11 +209,11 @@
 
 
     <footer class="bg-gray-800 py-8 sm:py-16 text-white">
-        <div class="container mx-auto">
+        <div class="container mx-auto max-w-screen-lg">
             <div class="flex flex-wrap mx-0 px-3 sm:-mx-6">
-                <div class="w-full sm:w-4/12 px-8 sm:px-6">
+                <div class="w-full sm:w-4/12 px-4 sm:px-6">
                     <h3 class="text-gray-300 text-xl font-normal mb-6">翰琳苑建設</h3>
-                    <p class="text-gray-500">我們擁有網頁工程師的背景，對於程式品質具有極高的自我要求。在電子商務及數位行銷上更有著豐富的經驗。</p>
+                    <p class="text-gray-500">翰林苑建設對自己的建築產品也以同樣謹慎的態度來看待，這是我們的建築誠懇，也是消費者對我們真正的信任</p>
                     <ul class="mt-6 flex">
                         <li>
                             <!-- FB -->
@@ -253,7 +259,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-full sm:w-4/12 px-8 sm:px-6 mt-8 sm:mt-0">
+                <div class="w-full sm:w-4/12 px-4 sm:px-6 mt-8 sm:mt-0">
                     <h3 class="text-gray-300 text-xl font-normal mb-6">導覽列</h3>
                     <ul class="text-gray-500 font-normal">
                         <li class="mb-2"><a href="./index.html">首頁</a></li>
@@ -262,11 +268,11 @@
                         <li><a href="./contact.html">聯絡我們</a></li>
                     </ul>
                 </div>
-                <div class="w-full sm:w-4/12 px-8 sm:px-6 mt-8 sm:mt-0">
+                <div class="w-full sm:w-4/12 px-4 sm:px-6 mt-8 sm:mt-0">
                     <h3 class="text-gray-300 text-xl font-normal mb-6">聯絡我們</h3>
                     <ul class="text-gray-500 font-normal">
                         <li class="mb-4 flex items-center">
-                            <svg class="h-5 w-5 fill-current text-teal-300 inline-block mr-2"
+                            <svg class="h-5 w-5 fill-current text-red-400 inline-block mr-2"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M10 20S3 10.87 3 7a7 7 0 1114 0c0 3.87-7 13-7 13zm0-11a2 2 0 100-4 2 2 0 000 4z">
@@ -274,7 +280,7 @@
                             </svg>
                             高雄市新興區仁愛一街50號</li>
                         <li class="mb-4 flex items-center">
-                            <svg class="h-5 w-5 fill-current text-teal-300 inline-block mr-2"
+                            <svg class="h-5 w-5 fill-current text-red-400 inline-block mr-2"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M20 18.35V19a1 1 0 01-1 1h-2A17 17 0 010 3V1a1 1 0 011-1h4a1 1 0 011 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 01.99 1v3.35z">
@@ -282,7 +288,7 @@
                             </svg>
                             07 281 1760</li>
                         <li class="mb-4 flex items-end">
-                            <svg class="h-5 w-5 fill-current text-teal-300 inline-block mr-2"
+                            <svg class="h-5 w-5 fill-current text-red-400 inline-block mr-2"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path
                                     d="M18 2a2 2 0 012 2v12a2 2 0 01-2 2H2a2 2 0 01-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z">
