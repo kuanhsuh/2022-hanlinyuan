@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>翰林苑建設 - 專業深根的在地高雄建設公司</title>
+    <!-- <base href="https://www.made-style.com.tw/" /> -->
+    <meta name="keywords" content="翰林苑建設,高雄建設公司,建設公司,優良建築" />
+    <meta name="description"
+        content="高雄老字號在地建築品牌, 以集合式住在起家, 秉持從善如流，細水長流的經營哲學, 計畫性地導入ISO9002認證模式, 以維持最佳的企業意識, 作業流程, 品質管制及工程管理,結合在地元素設計符合土地的產品, 讓工藝美學與環境和諧共生, 住進翰林苑, 共同實現更多美好" />
+    <link rel="icon" href="./asset/favicon.ico" type="image/x-icon">
+
+
+    <style>
+        /* @media only screen and (max-width: 600px) {
+            header {
+                height: 300px;
+            }
+        } */
+
+        td,
+        th {
+            padding: 8px 0;
+        }
+
+        /*
+        table,
+        th,
+        td {
+            border: 1px gray solid;
+        } */
+
+        video {
+            width: 100vw;
+        }
+
+        /* Style 2 - Pulse with text element */
+        .pulse-text:before {
+            content: '';
+            display: block;
+            background-color: #ea6565;
+            border-radius: 20px;
+            position: absolute;
+            /*Change to align pulse*/
+            top: 15px;
+            right: 0px;
+            /*End Change*/
+            height: 10px;
+            width: 10px;
+            transform: scale(1);
+            animation: pulse-fade 2s infinite;
+        }
+
+        .pulse-text-mobile:before {
+            content: '';
+            display: block;
+            background-color: #ea6565;
+            border-radius: 20px;
+            position: absolute;
+            /*Change to align pulse*/
+            top: 5px;
+            left: 50px;
+            /*End Change*/
+            height: 10px;
+            width: 10px;
+            transform: scale(1);
+            animation: pulse-fade 2s infinite;
+        }
+
+        /* Inner Pulsing */
+        @keyframes pulse {
+            0% {
+                transform: scale(0.9);
+            }
+
+            50% {
+                transform: scale(1.0);
+            }
+
+            100% {
+                transform: scale(0.9);
+            }
+        }
+
+        /* Outer Pulsing */
+        @keyframes pulse-fade {
+            0% {
+                transform: scale(0.9);
+                box-shadow: 0 0 0 0 rgb(234, 101, 101, 0.7);
+            }
+
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgb(234, 101, 101, 0);
+            }
+
+            100% {
+                transform: scale(0.9);
+                box-shadow: 0 0 0 0 rgb(234, 101, 101, 0);
+            }
+        }
+
+    </style>
+</head>
+
+<body class="text-gray-800 font-light">
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <nav class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex justify-between w-full">
+                    <div class="-ml-2 mr-2 flex items-center md:hidden order-3">
+                        <!-- Mobile menu button -->
+                        <button id="menuButton" type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <!--
+                Icon when menu is closed.
+
+                Heroicon name: outline/menu
+
+                Menu open: "hidden", Menu closed: "block"
+              -->
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                            <!--
+                Icon when menu is open.
+
+                Heroicon name: outline/x
+
+                Menu open: "block", Menu closed: "hidden"
+              -->
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="/"> <img class="hidden lg:block h-10 mr-2 w-auto" src="./asset/logo.png"
+                                alt="Workflow"></a>
+                        <a href="/"></a><img class="block lg:hidden h-8 w-auto mr-2" src="./asset/logo.png"
+                            alt="Workflow"> 翰林苑建設</a>
+
+                    </div>
+                    <div class="hidden md:ml-6 md:flex md:space-x-8">
+                        <!-- Current: "border-red-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                        <a href="/"
+                            class="border-red-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            首頁 </a>
+                        <a href="/shangshui.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium relative pulse-text">
+                            上水
+                        </a>
+                        <a href="/about.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            關於我們 </a>
+                        <a href="/history.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            歷年建案 </a>
+                        <a href="/contact.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            聯絡我們 </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <!-- Current: "bg-red-50 border-red-500 text-red-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+                <a href="/"
+                    class="bg-red-50 border-red-500 text-red-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">首頁</a>
+                <a href="/shangshui.html"
+                    class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6 relative pulse-text-mobile">上水
+                </a>
+                <a href="/about.html"
+                    class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">關於我們
+                </a>
+                <a href="/history.html"
+                    class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">歷年建案</a>
+                <a href="/contact.html"
+                    class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">聯絡我們</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="">
+        <img src="./asset/edm/edm1.jpg" alt="" class="w-full">
+        <img src="./asset/edm/edm2.jpg" alt="" class="w-full">
+        <img src="./asset/edm/edm3.jpg" alt="" class="w-full">
+    </section>
+
+
+
+    <div class="fixed w-full bg-teal-50 bottom-0 flex justify-between">
+        <a href="tel:072600158" class="px-6 text-white text-center flex-grow hover:bg-teal-100 py-4">
+            <svg class="h-6 w-6 inline-block mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.997 59.997">
+                <path
+                    d="M52.475 46.944c-1.898-3.587-8.899-7.69-8.899-7.69-1.584-.903-3.495-1.004-4.399.606 0 0-2.274 2.728-2.853 3.12-2.643 1.791-5.091 1.722-7.562-.75l-5.743-5.743-5.743-5.743c-2.472-2.472-2.541-4.919-.75-7.562.392-.579 3.12-2.853 3.12-2.853 1.609-.904 1.509-2.815.606-4.399 0 0-4.103-7.001-7.69-8.899a3.932 3.932 0 00-4.621.695l-2.537 2.537c-8.045 8.045-4.084 17.129 3.961 25.174l7.353 7.353 7.353 7.353c8.045 8.045 17.129 12.007 25.174 3.961l2.537-2.537a3.938 3.938 0 00.693-4.623z"
+                    fill="#52c306" />
+                <path
+                    d="M39.654 59.51c-1.054 0-2.128-.127-3.224-.38-4.132-.955-8.529-3.741-13.068-8.281L8.657 36.142C-1.336 26.15-2.706 16.957 4.695 9.555l2.537-2.537a4.907 4.907 0 015.796-.872c3.796 2.008 7.912 8.981 8.085 9.277.734 1.287.964 2.608.653 3.731-.234.845-.768 1.532-1.546 1.996-1.22 1.02-2.646 2.285-2.869 2.595-1.603 2.364-1.414 4.247.631 6.292l11.486 11.486c2.043 2.043 3.924 2.233 6.295.629.305-.221 1.57-1.646 2.592-2.867.463-.778 1.151-1.312 1.995-1.546 1.124-.313 2.445-.082 3.721.646.307.18 7.28 4.297 9.288 8.092a4.907 4.907 0 01-.872 5.796L49.95 54.81c-3.127 3.126-6.579 4.7-10.296 4.7zM10.717 7.569c-.758 0-1.504.296-2.07.862L6.11 10.968c-6.568 6.569-5.235 14.563 3.962 23.76l14.705 14.706c9.197 9.198 17.191 10.529 23.76 3.961l2.537-2.537a2.92 2.92 0 00.519-3.446c-1.448-2.736-6.643-6.194-8.521-7.296-.776-.443-1.6-.609-2.185-.45-.36.101-.634.324-.836.684l-.104.151c-.711.853-2.433 2.881-3.06 3.307-3.15 2.133-6.12 1.841-8.831-.87L16.568 31.451c-2.712-2.711-3.005-5.683-.871-8.831.425-.627 2.455-2.349 3.308-3.061l.15-.104c.36-.202.584-.476.684-.836.163-.588-.008-1.409-.457-2.196-.033-.057-3.995-6.768-7.289-8.511a2.955 2.955 0 00-1.376-.343z"
+                    fill="#388f04" />
+                <path
+                    d="M39.998 48.508c-.034 0-.069-.002-.104-.005-6.895-.716-11.409-5.097-11.599-5.283a1 1 0 011.403-1.425c.041.04 4.227 4.077 10.402 4.718a1.001 1.001 0 01-.102 1.995zM17.996 32.508a.994.994 0 01-.635-.229c-.229-.188-5.638-4.715-6.359-11.668a1.002 1.002 0 01.892-1.099 1.006 1.006 0 011.099.892c.635 6.12 5.592 10.291 5.642 10.332a1.002 1.002 0 01-.639 1.772z"
+                    fill="#388f04" />
+                <g fill="#efce4a">
+                    <path
+                        d="M27.362.487a1 1 0 100 2c16.892 0 30.635 13.743 30.635 30.635a1 1 0 102 0c0-17.995-14.64-32.635-32.635-32.635z" />
+                    <path
+                        d="M27.362 7.517a1 1 0 100 2c13.016 0 23.604 10.589 23.604 23.604a1 1 0 102 0C52.967 19.004 41.48 7.517 27.362 7.517z" />
+                    <path
+                        d="M27.362 14.547a1 1 0 100 2c9.14 0 16.575 7.436 16.575 16.575a1 1 0 102 0c0-10.242-8.333-18.575-18.575-18.575z" />
+                </g>
+            </svg>
+
+
+        </a>
+        <!-- <a href="https://line.me/ti/p/MFeAoqsnSL" class="px-6 text-white text-center flex-grow hover:bg-teal-100 py-4">
+        <svg class="h-6 w-6 inline-block mr-2" height="512" viewBox="0 0 24 24" width="512"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M12 .5C5.385.5 0 4.898 0 10.303c0 4.841 4.27 8.897 10.035 9.668.391.083.923.26 1.058.594.12.303.079.771.038 1.087l-.164 1.026c-.045.303-.24 1.193 1.049.649 1.291-.542 6.916-4.104 9.436-7.019 1.724-1.9 2.548-3.847 2.548-6.005C24 4.898 18.615.5 12 .5zM7.303 13.517H4.917a.636.636 0 01-.63-.633V8.083c0-.347.285-.634.63-.634.348 0 .63.287.63.634v4.167h1.756a.634.634 0 010 1.267zm2.466-.633a.634.634 0 01-.631.633.633.633 0 01-.627-.633V8.083c0-.347.282-.634.63-.634.346 0 .628.287.628.634zm5.741 0a.633.633 0 01-1.141.379l-2.443-3.338v2.958a.632.632 0 01-.631.633.632.632 0 01-.626-.633v-4.8a.63.63 0 01.624-.632c.195 0 .375.105.495.256l2.462 3.351V8.083c0-.347.282-.634.63-.634.345 0 .63.287.63.634zm3.855-3.035a.634.634 0 010 1.269H17.61v1.132h1.755a.633.633 0 010 1.267h-2.386a.633.633 0 01-.627-.633V8.083c0-.347.282-.634.63-.634h2.386c.346 0 .627.287.627.634a.63.63 0 01-.63.634H17.61v1.132z"
+                fill="#4caf50" />
+        </svg>
+    </a> -->
+        <!-- <a href="https://www.facebook.com/KUANNYIDEVELOPMENT"
+            class="px-6 text-white text-center flex-grow hover:bg-teal-100 py-4">
+            <svg class="h-6 w-6 inline-block mr-2" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M497 512H15c-8.284 0-15-6.716-15-15V15C0 6.716 6.716 0 15 0h482c8.284 0 15 6.716 15 15v482c0 8.284-6.716 15-15 15z"
+                    fill="#3a559f"></path>
+                <path d="M497 0H256v512h241c8.284 0 15-6.716 15-15V15c0-8.284-6.716-15-15-15z" fill="#23448e">
+                </path>
+                <path
+                    d="M280.681 205.261v-19.248c0-43.534 13.761-42.284 55.081-42.284h1.974c5.523 0 10-4.477 10-10V85.325c0-5.5-4.5-10-10-10h-46.855c-44.753 0-81.37 36.616-81.37 81.37v19.007h-.149v29.559h-35.237c-5.523 0-10 4.477-10 10v46.755c0 5.523 4.477 10 10 10h35.237v154.658c0 5.523 4.477 10 10 10h51.249c5.523 0 10-4.477 10-10V272.017h47.263c5.523 0 10-4.477 10-10l10-46.755c0-5.523-4.477-10-10-10h-57.193z"
+                    fill="#fff"></path>
+                <path
+                    d="M337.874 205.261h-57.193v-19.248c0-43.534 13.761-42.284 55.081-42.284h1.974c5.523 0 10-4.477 10-10V85.325c0-5.5-4.5-10-10-10h-46.855A80.606 80.606 0 00256 83.238v353.437h14.612c5.523 0 10-4.477 10-10V272.017h47.263c5.523 0 10-4.477 10-10l10-46.755c-.001-5.524-4.478-10.001-10.001-10.001z"
+                    fill="#d7f2f9"></path>
+            </svg></a> -->
+        <!-- <a href="https://www.instagram.com/kuannyi/"
+            class="px-6 text-white text-center flex-grow hover:bg-teal-100 py-4">
+            <svg class="h-8 w-8 inline-block mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <path fill="#304ffe"
+                    d="M42 13l-2 1v4l-1 1v2l-1 2v2a10 10 0 01-1 3 9 9 0 01-1 2 9 9 0 01-3 3 7 7 0 01-2 1l-2 1a12 12 0 01-2 0h-8a10 10 0 01-5-4h-1a9 9 0 01-1-4 11 11 0 01-1-2l2-3 2-3 1-2 1-1v-1-1l-1-2v-2l-2-2V6h18a10 10 0 0110 7z" />
+                <path fill="#4928f4"
+                    d="M42 16l-1 1-1 1h-1l-2 1-2 1-2 1-1 1v1l-2 2-2 1c-4 1-8 0-11-2l-1-1v-8-1l-4-1-3-1-2-1 1-1a10 10 0 018-4h11c5 1 10 3 14 6l1 1v3z" />
+                <path fill="#6200ea"
+                    d="M42 16v5l-1 2-1 3v1l-1 1v3l-1 1a23 23 0 010 2 7 7 0 010 2 2 2 0 01-2 1l-2 1h-6l-2-1H14l-2-1-1-2v-1-18H9l-3-1a14 14 0 011-3l1-1a33 33 0 0113-2 32 32 0 0121 8z" />
+                <path fill="#673ab7"
+                    d="M42 18v5l-1 1-1 2v1l-1 1v1a16 16 0 010 3 7 7 0 01-1 2 4 4 0 01-1 1l-1 1h-6l-2 1H16h-2a6 6 0 01-3-3v-1a9 9 0 01-1-3v-2-2l-1-2-1-2-1-2-1-2v-2a10 10 0 010-3 27 27 0 0110-3 30 30 0 0126 8z" />
+                <path fill="#8e24aa"
+                    d="M42 21v5l-1 2-1 2v1l-1 2-1 1h-3a81 81 0 00-3 0h-6l-3 1h-7l-3-1-1-1-1-2v-3l-1-2-1-2H8v-2l-1-1-1-1v-4a25 25 0 016-3 27 27 0 019-1c7 0 13 2 18 6v1l3 2z" />
+                <path fill="#c2185b"
+                    d="M42 25v7a10 10 0 00-2-1 16 16 0 00-2-1 25 25 0 00-3 0l-2-1h-7l-7 1h-5c-1 1-1 0-1-1v-2h-1l-1-1v-1l-2-1H8l-1-1-1-1v-3-1a26 26 0 0135 5v1l1 1z" />
+                <path fill="#d81b60"
+                    d="M42 29v3a10 10 0 01-1 5h-1a8 8 0 01-2-1l-1-1-2-1-2-1h-3l-5-2-3-1h-1l-7 1-1-2v-1l-1-1h-1l-1-1H9l-1-1H6v-4h1v-1a23 23 0 0114-4 23 23 0 0119 10l1 2 1 1z" />
+                <path fill="#f50057"
+                    d="M42 34a10 10 0 01-2 4h-2a30 30 0 00-6-2l-3-1h-3v-1l-7-1-2-1h-1l-2-1h-3v-1H8l-1-1-1-1v-4l1-1 1-1a20 20 0 018-4h5a22 22 0 0121 16z" />
+                <path fill="#ff1744"
+                    d="M40 38a9 9 0 01-2 2l-1 1h-1l-2-1-2-2h-2l-2-1h-6l-5-1h-2l-2-1-2-1-2-1-2-1-1-1v-4a21 21 0 013-3 17 17 0 014-2l3-1 5-1a19 19 0 0117 10l1 1a25 25 0 010 2 19 19 0 011 5z" />
+                <path fill="#ff5722"
+                    d="M38 39v1l-1 1h-1a18 18 0 00-4-1h-4l-2-1h-1l-7-1h-2a19 19 0 01-4-1 41 41 0 01-5-1l-1-2v-4l1-1a17 17 0 013-3l1-1a17 17 0 0119 0 17 17 0 018 10v4z" />
+                <path fill="#ff6f00"
+                    d="M36 39a11 11 0 010 2 9 9 0 01-3 1 20 20 0 01-3-2l-1-1H18h-1a23 23 0 01-3 0h-2a82 82 0 01-4 0 10 10 0 01-2-5 14 14 0 014-6h1v-1h1a15 15 0 019-3l7 2a15 15 0 017 8 20 20 0 011 3v2z" />
+                <path fill="#ff9800"
+                    d="M34 39v3h-1-3l-2-1h-2l-5-2h-2-2a66 66 0 01-5 2h-1a10 10 0 01-3-4v-1a13 13 0 013-5l1-2h1a13 13 0 0121 7 14 14 0 010 3z" />
+                <path fill="#ffc107"
+                    d="M32 39v1a18 18 0 010 2h-7l-4-1h-2-3l-2 1a9 9 0 01-4-2v-1a11 11 0 011-5v-1h1l1-2h1v-1a11 11 0 0112-1 11 11 0 015 5l1 2v3z" />
+                <path fill="#ffd54f"
+                    d="M30 39v1a10 10 0 010 2h-5l-4-1-5 1h-2l-2-1v-2a9 9 0 011-5 9 9 0 013-2 9 9 0 016-2l3 1a9 9 0 015 5v3z" />
+                <path fill="#ffe082"
+                    d="M28 40a7 7 0 010 2h-5l-2-1-2 1h-5a7 7 0 010-2v-1-1-1l1-1a7 7 0 012-2l2-1 2-1 5 2v1h1a7 7 0 011 2v1a6 6 0 010 2z" />
+                <path fill="#ffecb3" d="M26 40v1l-1 1h-9v-1-1-1-1-1l1-1 2-1a5 5 0 014 0 5 5 0 013 2 5 5 0 010 2v1z" />
+                <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                    stroke-width="2" d="M30 11H18c-4 0-7 3-7 7v12c0 4 3 7 7 7h12c4 0 7-3 7-7V18c0-4-3-7-7-7z" />
+                <circle cx="31" cy="16" r="1" fill="#fff" />
+                <g>
+                    <circle cx="24" cy="24" r="6" fill="none" stroke="#fff" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                </g>
+            </svg>
+        </a> -->
+        <a href="https://goo.gl/maps/x33oekJ4jWSbcgTP9"
+            class="px-6 text-white text-center flex-grow hover:bg-teal-100 py-4">
+            <svg class="h-6 w-6 inline-block mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999">
+                <g fill="#44c868">
+                    <path
+                        d="M511.879 475.685l-40.224-221.611a7.506 7.506 0 00-3.739-5.221l-101.242-56.31a7.488 7.488 0 00-4.234-.911l18.419 237.608-.617.276 121.164 54.357a7.51 7.51 0 007.709-.937 7.5 7.5 0 002.764-7.251zM256 246.375l-103.545-53.931a7.491 7.491 0 00-3.972-.82c.359-.022.72-.02 1.078.008L131.142 429.24l121.781 54.634a7.53 7.53 0 003.077.659V246.375z" />
+                </g>
+                <g fill="#4ce166">
+                    <path
+                        d="M149.56 191.633a7.496 7.496 0 00-4.234.91l-101.243 56.31a7.504 7.504 0 00-3.739 5.221L.121 475.685a7.504 7.504 0 002.763 7.252 7.516 7.516 0 007.709.937l120.504-54.061 18.463-238.18zM362.439 191.628a7.492 7.492 0 00-2.894.818L256 246.376v238.158h.001a7.51 7.51 0 003.077-.659l121.781-54.634-18.42-237.613z" />
+                </g>
+                <path fill="#ffdb56" d="M28.154 321.233l-8.171 45.019 120.994-63.906 2.809-36.239.466-6.01z" />
+                <path
+                    d="M142.066 288.294l-1.089 14.052-120.994 63.906L.121 475.685a7.504 7.504 0 002.763 7.252 7.516 7.516 0 007.709.937l120.504-54.061 10.969-141.519z"
+                    fill="#a8eefc" />
+                <g fill="#ffbb24">
+                    <path
+                        d="M256.03 276.08l-111.778-15.983-3.275 42.249L256 477.025v-63.518l-68.637-108.078 68.667 8.213zM459.946 244.421l-48.635-27.051-46.042 10.758.576 7.436 2.274 29.334z" />
+                </g>
+                <path fill="#ffdb56"
+                    d="M372.202 317.576l-4.36-56.249-2.573-33.199L256.03 276.08v37.562l71.356-31.03z" />
+                <path
+                    d="M511.879 475.685l-10.103-55.666-133.657-155.121 4.084 52.678 137.07 165.221a7.499 7.499 0 002.606-7.112z"
+                    fill="#ffbb24" />
+                <path
+                    d="M256.481 27.465c-57.963 0-105.12 47.118-105.12 105.034 0 35.826 17.009 74.29 50.556 114.322 24.639 29.403 48.943 48.314 49.966 49.105a7.505 7.505 0 004.599 1.57 7.507 7.507 0 004.599-1.57c1.022-.791 25.327-19.702 49.966-49.105 33.547-40.032 50.556-78.495 50.556-114.322-.002-57.916-47.159-105.034-105.122-105.034zm38.93 105.033c0 21.482-17.43 38.898-38.93 38.898s-38.93-17.415-38.93-38.898 17.43-38.898 38.93-38.898 38.93 17.416 38.93 38.898z"
+                    fill="#ff4a4a" />
+                <path
+                    d="M256.481 27.465c-4.594 0-9.119.298-13.559.872 51.583 6.667 91.562 50.836 91.562 104.162 0 35.826-17.009 74.29-50.556 114.322-15.845 18.908-31.54 33.467-41.005 41.669 5.254 4.552 8.596 7.154 8.96 7.436a7.505 7.505 0 004.599 1.57 7.507 7.507 0 004.599-1.57c1.022-.791 25.327-19.702 49.966-49.105 33.547-40.032 50.556-78.495 50.556-114.322-.002-57.916-47.159-105.034-105.122-105.034z"
+                    fill="#e7343f" />
+                <path d="M259.078 483.874l45.285-20.316L256 413.507v71.026h.001a7.497 7.497 0 003.077-.659z"
+                    fill="#ffdb56" />
+                <g fill="#1ea4e9">
+                    <path
+                        d="M471.654 254.074a7.506 7.506 0 00-3.739-5.221l-7.97-4.433-91.827 20.477 133.656 155.121-30.12-165.944zM255.999 484.533c.001 0 .001 0 0 0v-7.508L140.977 302.346l-9.837 126.895 121.781 54.634a7.514 7.514 0 003.078.658z" />
+                </g>
+            </svg>
+        </a>
+    </div>
+
+    <script>
+        var menuButton = document.querySelector("#menuButton");
+        var mobileMenu = document.querySelector("#mobile-menu");
+
+        menuButton.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden')
+        })
+
+    </script>
+</body>
+
+</html>
